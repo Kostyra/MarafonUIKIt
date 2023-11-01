@@ -1,60 +1,8 @@
-//
-//  ViewController.swift
-//  SquareView
-//
-//  Created by Юлия Филиппова on 01.11.2023.
-//
+
 
 import UIKit
 
-//final class ViewController: UIViewController {
-//
-//
-//    private lazy var square:UIView =  {
-//        let view = UIView(frame: CGRect(x: 0, y: 0, width: 150, height: 150))
-//         view.translatesAutoresizingMaskIntoConstraints = false
-//        view.layer.cornerRadius = 12
-//
-//
-//
-//
-//        view.layer.shadowPath = UIBezierPath(roundedRect: view.bounds, cornerRadius: view.layer.cornerRadius).cgPath
-//        view.clipsToBounds = true
-//        view.layer.shadowColor = UIColor.black.cgColor
-//        view.layer.shadowRadius = 50
-//        view.layer.shadowOffset = .zero
-//        view.layer.shadowOpacity = 0.5
-//        view.layer.masksToBounds = false
-//
-//
-//
-//         let gradientLayer = CAGradientLayer()
-//         gradientLayer.colors = [UIColor.blue.cgColor, UIColor.red.cgColor]
-//         gradientLayer.frame = view.bounds
-//         view.layer.insertSublayer(gradientLayer, at: 0)
-//
-//
-//        return view
-//    }()
-//
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        view.backgroundColor = .white
-//        setup()
-//
-//    }
-//
-//    private func setup() {
-//        view.addSubview(square)
-//
-//        NSLayoutConstraint.activate([
-//            square.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-//            square.heightAnchor.constraint(equalToConstant: 150),
-//            square.widthAnchor.constraint(equalToConstant: 150),
-//            square.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 100)
-//        ])
-//    }
-//}
+
 
 
 final class ViewController:   UIViewController {
